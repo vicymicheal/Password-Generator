@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #273549;
+}
+
+.card {
+    background: #ECFDF5;
+    padding: 3rem;
+}
+
+h1 {
+    color: #273549;
+    font-size: 2.5rem;
+}
+
+span {
+    color: #10B981;
+}
+
+p {
+    color: #6B7280;
+}
+
+button {
+    background: #10B981;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+    padding: .5rem 1rem;
+    margin: 2rem 0;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover,
+button:focus {
+    background: #9de3ccdd;
+    color: #273549;
+    transform: scale(1.05);
+    transition: 250ms ease-out;
+}
+
+hr {
+    margin-bottom: 2rem;
+    color: 6B7280;
+    opacity: 0.65;
+}
+
+.output {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.passwords {
+    background: #273549;
+    color: #10B981;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem .75rem;
+    border-radius: 5px;
+}
+
+input {
+    border: 0;
+    outline: 0;
+    background: #273549;
+    color: #10B981;
+}
+
+i {
+    cursor: pointer;
+}
+
+i:hover,
+i:focus {
+    transform: 1.02;
+    color: #ECFDF5;
+}
+
+/* input {
+    background: #273549;
+    color: #10B981;
+    padding: .5rem;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+} */
+
+.left {
+    margin-left: 1rem;
+}
